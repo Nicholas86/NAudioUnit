@@ -7,16 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "NAudioUnit.h"
 
 @interface ViewController ()
 
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NAudioUnit *audioUnit = [[NAudioUnit alloc] init];
 }
 
 

@@ -15,6 +15,7 @@
 		F3AD5C5E2332365E000F9C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5C5D2332365E000F9C55 /* main.m */; };
 		F3AD5C682332365F000F9C55 /* NAudioUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5C672332365F000F9C55 /* NAudioUnitTests.m */; };
 		F3AD5C732332365F000F9C55 /* NAudioUnitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5C722332365F000F9C55 /* NAudioUnitUITests.m */; };
+		F3AD5C8223323794000F9C55 /* NAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AD5C8123323794000F9C55 /* NAudioUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F3AD5C6E2332365F000F9C55 /* NAudioUnitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAudioUnitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AD5C722332365F000F9C55 /* NAudioUnitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAudioUnitUITests.m; sourceTree = "<group>"; };
 		F3AD5C742332365F000F9C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AD5C8023323794000F9C55 /* NAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAudioUnit.h; sourceTree = "<group>"; };
+		F3AD5C8123323794000F9C55 /* NAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAudioUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F3AD5C4F2332365E000F9C55 /* AppDelegate.m */,
 				F3AD5C512332365E000F9C55 /* ViewController.h */,
 				F3AD5C522332365E000F9C55 /* ViewController.m */,
+				F3AD5C8023323794000F9C55 /* NAudioUnit.h */,
+				F3AD5C8123323794000F9C55 /* NAudioUnit.m */,
 				F3AD5C542332365E000F9C55 /* Main.storyboard */,
 				F3AD5C572332365E000F9C55 /* Assets.xcassets */,
 				F3AD5C592332365E000F9C55 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				F3AD5C532332365E000F9C55 /* ViewController.m in Sources */,
 				F3AD5C5E2332365E000F9C55 /* main.m in Sources */,
 				F3AD5C502332365E000F9C55 /* AppDelegate.m in Sources */,
+				F3AD5C8223323794000F9C55 /* NAudioUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2PP5K6334;
 				INFOPLIST_FILE = NAudioUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2PP5K6334;
 				INFOPLIST_FILE = NAudioUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
